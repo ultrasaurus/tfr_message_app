@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
 
   def greeting
-    puts "==================> greeting method"
+    logger.info "==================> greeting method!"
   end
 
 end

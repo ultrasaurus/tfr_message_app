@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
 
   def greeting
-    logger.info "==================> greeting method!"
+    @name = params[:name] 
   end
 
 end
